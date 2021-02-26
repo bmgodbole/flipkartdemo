@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+
+  .container
+  {
+    height:100%;
+  }
+  .container2
+  {
+    position:relative;
+    top:56px;
+
+  }
+  .iconcaption
+  {
+      font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+   .svgelement
+   {
+
+    margin-left: 5px;
+    /* margin-top: 3px; */
+    margin-bottom: 3px;
+        transition: transform .1s,-webkit-transform .1s;
+   }
+   .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.iconcaption:hover .dropdown-content {display: block;}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+  .eq1
+  {
+    padding: 12px 8px;
+    text-align: center;
+    cursor: pointer;
+}
+  .eq1:first-child {
+    padding-left: 22px;
+}
+.iconimg
+{
+     height:64px;
+     width:64px;
+
+}
+
+
+
+.nav {
+    display: flex;
+    height: 56px;
+    width: 100%;
+    background-color: #2874f0;
+    flex-direction: row;
+    position:fixed;
+    top:0;
+}
+.nave1
+{
+    height: 100%;
+    min-width:124px;
+
+   background-color: #2874f0;
+
+}
+
+
+
+.nave2
+{
+   /* background-color: green; */
+    height:100%;
+    width:100%;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    display: flex;
+
+}
+ .nave2logoC
+ {
+     min-width:134px;
+     height: 100%;
+    /* background-color: orange;   */
+     display: flex;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+.nav1-link1
+{
+   list-style: none;
+   padding:0px;
+   background-color: black;
+   margin-left:15%;
+}
+.logo
+{
+ display:flex;
+/*background-color: red;  */
+cursor: pointer;
+font-size: 14px;
+flex-direction: column;
+justify-content: center;
+}
+.logoimg
+{
+    display:block;
+}
+
+.explore
+{   color:white;
+    font-size: 11px;
+    font-style: italic;
+}
+.plus
+{
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+}
+
+ a, img {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+.nav1-link1 li
+{
+  float:left;
+  /* display:inline-block;*/
+   font-size: 18px;
+   background-color:black;
+   color: white;
+   padding : 8px;
+
+}
+
+.nav2
+{
+  position: sticky;
+}
+.row2
+{
+
+display : flex;
+flex-direction:row;
+background: #3ff4;
+min-height: 112px;
+width:100%;
+
+}
+._1TmfNK
+{
+
+    height: 100%;
+    min-width: 124px;
+}
+
